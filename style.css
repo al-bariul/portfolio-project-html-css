@@ -223,3 +223,59 @@ main {
   color: #757575;
   line-height: 28px;
 }
+
+#resume {
+  margin-top: 130px;
+}
+
+.resume h3 {
+  text-align: center;
+  margin-bottom: 113px;
+}
+.edu-ex {
+  display: flex;
+  gap: 20px;
+  /* padding-right: 71px; */
+}
+.resume h4 {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: rgba(71, 71, 71, 1);
+}
+
+.resume h5 {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: rgba(71, 71, 71, 1);
+}
+
+.resume h6 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgba(117, 117, 117, 1);
+}
+
+.resume p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(117, 117, 117, 1);
+  line-height: 28px;
+}
+
+.resume .first,
+.second,
+.third {
+  /* border: 1px solid red; */
+  line-height: 0px;
+  /* height: 175px; */
+  /* width: 511px; */
+}
+
+.resume .btn {
+  text-align: center;
+  margin-top: 50px;
+}
