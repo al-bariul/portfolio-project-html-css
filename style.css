@@ -279,3 +279,46 @@ main {
   text-align: center;
   margin-top: 50px;
 }
+
+footer {
+  margin-top: 130px;
+  padding: 130px 230px;
+  background-color: rgba(255, 248, 243, 1);
+  display: flex;
+  gap: 117px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(71, 71, 71, 0.908);
+  font-family: "Open Sans", sans-serif;
+  width: 560px;
+}
+
+footer i {
+  padding-right: 24px;
+  color: rgba(253, 110, 10, 1);
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  /* display: flex; */
+  /* flex-direction: column; */
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+footer textarea {
+  height: 100px;
+}
